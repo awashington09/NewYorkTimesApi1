@@ -1,7 +1,7 @@
 package com.mpls.NewYorkTimesApi1;
 
 import java.util.ArrayList;
-import java.util.List;
+
 
 public class Results {
     private final String health;

@@ -1,17 +1,13 @@
 package com.mpls.NewYorkTimesApi1;
 
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.security.interfaces.RSAMultiPrimePrivateCrtKey;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.concurrent.atomic.AtomicLong;
+
 
 @RestController
 public class NYTIMESController {
-  //  private static final String template = "Hello, %s!";
     Multimedia multimedia1 = new Multimedia("a@.com", "a", 3, 450, "love","james","bond", "girl");
     ArrayList<Multimedia> multimediaList = new ArrayList<Multimedia>(Arrays.asList(multimedia1));
     Results one = new Results("a", "b", "c", "h@h.com", "e", "f", "g", "h", "11", "11", "", "",null, null, null,null, multimediaList);
